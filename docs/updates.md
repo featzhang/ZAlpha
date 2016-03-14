@@ -1,5 +1,6 @@
 # ZAlpha 多目标优化算法设计平台
-
+## 版本与改进
+----
 
 
 ##　Zalpha v0.0.0.1
@@ -15,6 +16,7 @@
 左侧下方：
 通过点击按钮实现相应的功能。 支持在算法运行过程中修改聚合方法。手动保存数据。
 支持实时IGD评价。
+
 ![](images/zalpha_clip_image003.jpg)
 
 三维效果 支持鼠标拖动旋转，支持自动旋转（左侧按钮）和调整旋转速度。
@@ -36,6 +38,7 @@
 更新日志：
 
 1. 增强对Linux的支持。（文件分割符，算法实验结果文件路径优化管理）
+
   ![](images/zalpha_clip_image007.jpg)
 
   Windows7
@@ -51,7 +54,10 @@
 2. 增加软件配置记忆。当再次启动文件选择器时记住上次打开的路径。
 3. 增加MOEA/D-DE、MOEA/D-DRA、ENS-MOEA/D、MOEA/D-OSD和MOEA/D-AVS算法.
 4. 增加实时IGD评价：每进化一代，评价一次IGD。
-![](images/zalpha_clip_image010.jpg)
+
+
+   ![](images/zalpha_clip_image010.jpg)
+   
 5. 界面布局：左侧窗格为算法窗格，下侧为图像控制窗格，可以拖动边界实现隐藏。
 
   ![](images/zalpha_clip_image011.jpg)
@@ -62,6 +68,7 @@
 9. 绘图区：绘制权重向量是否以坐标原点作为起始点。
 10. 绘图区：增加是否显示坐标零点所在区域。
 12. 绘图区：调整图像及布局。
+
   ![](images/zalpha_clip_image012.jpg)
 
 12．文件窗格：增加“打开”-看图，更广泛的格式兼容，可以准确的区分文本文件中的制表符和空格。
@@ -70,13 +77,16 @@
 
 13. 文件窗格：增加“IGD”-外部文件IGD指标评价。
 14. 文件窗格：增加“粘贴”-复制实验数据到粘贴板，即可绘图和保存。单击“粘贴”按钮，弹出TextEditor对话框，确定后即可绘图。
+
   ![](images/zalpha_clip_image014.jpg)  
-    软件平台与更多工具：</strong>
+  
+    软件平台与更多工具：
 15. 软件风格和主题，一键切换
 
   ![](images/zalpha_clip_image015.jpg)
 
 16. 算法模块测试分析
+
   ![](images/zalpha_clip_image016.jpg)
 
 ## Zalpha v0.0.0.3
